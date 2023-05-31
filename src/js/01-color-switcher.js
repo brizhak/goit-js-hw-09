@@ -26,7 +26,7 @@ function onStopBtnClick(event) {
 
     stopBtnEl.disabled = true;
     startBtnEl.disabled = false;
-}
+};
 
 function onBtnClick(event) {
     if (event.target.hasAttribute('data-start')) { 
